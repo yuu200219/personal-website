@@ -1,8 +1,12 @@
-.fade-in {
+.fade-in .profile-photo, .fade-in #title, .fade-in .words{
     opacity: 0;
     transition: opacity 1s ease-in;
 }
-.fade-in.appear {
+.fade-in .words{
+    transition-delay: 1s; 
+    /* transition: opacity 1s ease-in; */
+}
+.fade-in.appear .profile-photo, .fade-in.appear #title, .fade-in.appear .words{
     opacity: 1;
 }
 /* .fade-out {
