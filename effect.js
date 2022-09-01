@@ -1,3 +1,4 @@
+//fade
 const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
@@ -22,3 +23,8 @@ const appearOnScroll = new IntersectionObserver(
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
 });
+//
+
+//theme mode
+
+//
