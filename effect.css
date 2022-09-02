@@ -1,19 +1,19 @@
-.fade-in .profile-photo, .fade-in #title, .fade-in .words{
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-.fade-in .words{
-    transition-delay: 1s; 
-    /* transition: opacity 1s ease-in; */
-}
-.fade-in.appear .profile-photo, .fade-in.appear #title, .fade-in.appear .words{
-    opacity: 1;
-}
-/* for work, diary, contact fade-in */
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in;
 }
-.fade-in.appear{
+/* .fade-in {
+    transition-delay: 1s; 
+    transition: opacity 1s ease-in;
+} */
+.fade-in.appear {
     opacity: 1;
 }
+
+/* .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+} */
