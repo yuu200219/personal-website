@@ -9,7 +9,11 @@
 .fade-in.appear .profile-photo, .fade-in.appear #title, .fade-in.appear .words{
     opacity: 1;
 }
-/* .fade-out {
+/* for work, diary, contact fade-in */
+.fade-in {
     opacity: 0;
-    transition: opacity 1.5s ease-in;
-} */
+    transition: opacity 1s ease-in;
+}
+.fade-in.appear{
+    opacity: 1;
+}

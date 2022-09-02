@@ -11,9 +11,7 @@
     justify-content: right;
     flex-shrink: 0;
 }
-.dark-mode-icon {
-    height: 28px;
-}
+
 
 .home {
     background-color: black;
@@ -68,8 +66,14 @@
     width: 50px;
     align-items: center;
     justify-content: center;
-    
+    background-image: url(pic/003-crescent-moon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
     height: 40px;
+}
+.dark-mode-icon {
+    height: 28px;
 }
 .top-section {
     display: flex;

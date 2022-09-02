@@ -1,0 +1,15 @@
+body.dark-background {
+    background-color: rgb(40, 40, 40);
+}
+.theme-mode.dark-mode {
+    background-image: url(pic/sun.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+}
+.title-page.dark-titlePage .title {
+    color: white;
+}
+.title-page.dark-titlePage .words {
+    color: white;
+}

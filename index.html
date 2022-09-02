@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="hello.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="effect.css">
+    <link rel="stylesheet" href="theme.css">
     <link rel="stylesheet" href="work-page.css">
 
 
@@ -31,7 +32,8 @@
     <div class="top-section">
         <div class="left-section">
             <div class="theme-mode">
-                <img class="dark-mode-icon" src="pic/003-crescent-moon.png">
+                <i class="dark-mode-icon"></i>
+                <!-- <img class="dark-mode-icon" src="pic/003-crescent-moon.png"> -->
             </div>
         </div>
         <div class="right-section">
@@ -41,7 +43,7 @@
                 </a>
             </div>
             <div class="work">
-                <a class="work-link" href="#">
+                <a class="work-link" href="#work-page-topSpace">
                     Work
                 </a>
             </div>
@@ -75,15 +77,27 @@
                 </div>    
             </div> 
         </div>
-        
-        <div class="work-page">
-            <!-- <img class="phto_1" src="pic/phto1.JPG"> -->
-        </div> 
     </div>
+    <div class="spcace" id="work-page-topSpace"></div>
+    <div class="work-page fade-in" id="work-page">
+        <p class="work-title">Work</p>
+        <div class="game">
+            <p class="game-title">Game</p>
+            <iframe class="minesweeper-frame"src="https://yuu200219.github.io/yuu-minesweeper.githib.io/"
+            title="Minesweeper" width="650px" height="650px"></iframe>
+        </div>
+        <div class="project">
+            <p class="project-title">Project</p>
+            <!-- <p class="ai-debug">AI debugging: Control-Flag</p> -->
+        </div>
+        <!-- <img class="phto_1" src="pic/phto1.JPG"> -->
+        
+    </div> 
     
     <div class="diary-page"></div>
     <div class="contact-page"></div>
     
     <script src="./effect.js"></script>
+    <script src="./theme.js"></script>
 </body>
 </html>
