@@ -2,10 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     transition: 0.2s;
 }
 .spcace {
@@ -47,8 +47,8 @@ body {
     height: 10px;
     margin-right: 3px;
 }
-.title-page {
-}
+/* .title-page {
+} */
 .intro-title {
     /* background-color: gray; */
     /* background-color: rgb(243, 243, 243); */
