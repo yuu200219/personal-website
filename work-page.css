@@ -42,6 +42,10 @@
     border-radius: 50px;
     padding: 10px; */
 }
+.project-name {
+    font-family: Montserrat;
+    font-size: 20px;
+}
 .game {
     margin-top: 0;
     overflow: hidden;
