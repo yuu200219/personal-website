@@ -16,7 +16,7 @@ body.dark-background {
 .work-page.dark-workPage{
     background-color: rgb(30,30,30);
 }
-.work-page.dark-workPage .work-title {
+.work-page.dark-workPage .work-title, .note-page.dark-notePage .note-title{
     color: white;
 }
 .work-page.dark-workPage .game-title,
@@ -25,6 +25,6 @@ body.dark-background {
     /* color: white; */
     color: rgb(255, 173, 19);
 }
-.work-page.dark-workPage .game-context {
+.work-page.dark-workPage .game-context, .work-page.dark-workPage .project-name {
     color: rgb(255, 70, 101);
 }
